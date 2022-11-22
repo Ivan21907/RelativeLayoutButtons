@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="25sp"
+        android:text="Center"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv1"
+        android:layout_toRightOf="@id/tv1"
+        android:textSize="25sp"
+        android:text="Above"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/tv1"
+        android:layout_toRightOf="@id/tv1"
+        android:textSize="25sp"
+        android:text="Below"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv2"
+        android:layout_toRightOf="@id/tv2"
+        android:gravity="center"
+        android:text="Further adove"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv3"
+        android:layout_toRightOf="@id/tv3"
+        android:textSize="25sp"
+        android:text="Further below"/>
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/colorRed"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/colorGreen"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/colorBlue"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/colorYellow"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>

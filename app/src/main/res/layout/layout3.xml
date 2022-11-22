@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/tv0"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:text="FUCHSIA"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorFuchsia"
+        android:layout_toRightOf="@id/tv0"
+        android:layout_centerVertical="true"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv1"
+        android:layout_toLeftOf="@id/tv1"
+        android:background="@color/colorYellow"
+        android:padding="5dp"
+        android:text="YELLOW"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:text="ORANGE"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOrange"
+        android:layout_toLeftOf="@id/tv2"
+        android:layout_above="@id/tv2"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:text="RED"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed"
+        android:layout_toLeftOf="@id/tv3"
+        android:layout_above="@id/tv3"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:text="BLUE"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:layout_toLeftOf="@id/tv1"
+        android:layout_below="@id/tv1"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/tv6"
+        android:text="PURPLE"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:layout_toLeftOf="@id/tv5"
+        android:layout_below="@id/tv5"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/tv7"
+        android:text="GREEN"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:layout_toLeftOf="@id/tv6"
+        android:layout_below="@id/tv6"
+        android:padding="5dp"/>
+
+
+</RelativeLayout>
