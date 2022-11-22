@@ -6,7 +6,7 @@
     android:background="@color/black">
 
     <TextView
-        android:id="@+id/tv1"
+        android:id="@+id/tv_Red"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="fill_horizontal"
@@ -14,53 +14,53 @@
         android:text="Red"/>
 
     <TextView
-        android:id="@+id/tv2"
+        android:id="@+id/tv_Orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv1"
+        android:layout_below="@id/tv_Red"
         android:background="@color/colorOrange"
         android:text="Orange"/>
 
     <TextView
-        android:id="@+id/tv3"
+        android:id="@+id/tv_Yellow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv2"
+        android:layout_below="@id/tv_Orange"
         android:background="@color/colorYellow"
         android:text="Yellow"/>
 
     <TextView
-        android:id="@+id/tv4"
+        android:id="@+id/tv_Green"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv3"
+        android:layout_below="@id/tv_Yellow"
         android:background="@color/colorGreen"
         android:textColor="@color/white"
         android:text="Green"/>
 
     <TextView
-        android:id="@+id/tv5"
+        android:id="@+id/tv_Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv4"
+        android:layout_below="@id/tv_Green"
         android:background="@color/colorBlue"
         android:textColor="@color/white"
         android:text="Blue"/>
 
     <TextView
-        android:id="@+id/tv6"
+        android:id="@+id/tv_Purple"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv5"
+        android:layout_below="@id/tv_Blue"
         android:background="@color/colorPurple"
         android:textColor="@color/white"
         android:text="Purple"/>
 
     <TextView
-        android:id="@+id/tv7"
+        android:id="@+id/tv_Fuchsia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv6"
+        android:layout_below="@id/tv_Purple"
         android:background="@color/colorFuchsia"
         android:text="Fuchsia"/>
 
